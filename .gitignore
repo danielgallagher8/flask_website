@@ -127,9 +127,3 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-
-# web dev 
-templates/
-static/
-*.html
-*.css
