@@ -1,2 +1,2 @@
-# template
-Template to use for other GitHub repos
+# website
+Website design using Flask (Python) with HTML, CSS and other web development languages
