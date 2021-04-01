@@ -5,7 +5,7 @@ import website
 with open("README.md", "r") as readme_file:
     readme = readme_file.read()
     
-requirements = []
+requirements = ['flask']
 
 setup(
       name="website",
