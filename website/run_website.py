@@ -2,9 +2,11 @@
 Run Flask website
 """
 
+import os
 from flask import Flask, render_template
 
 app = Flask(__name__)
+app._static_folder = os.path.abspath("static/")
 
 @app.route("/")
 def root():
