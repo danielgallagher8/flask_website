@@ -18,7 +18,7 @@ setup(
       url="https://github.com/danielgallagher8/website.git",
       packages=find_packages(),
       #package_data={"website/static":["*.html", "*.css"], "website/templates":["*.html", "*.css"]},
-      include_package_data=True,
+      #include_package_data=True,
       install_requires=requirements,
       classifiers=[
               "Programming Language :: Python :: 3.7",
