@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-import template
+import website
 
 with open("README.md", "r") as readme_file:
     readme = readme_file.read()
@@ -8,14 +8,14 @@ with open("README.md", "r") as readme_file:
 requirements = []
 
 setup(
-      name="template",
-      version=template.__version__,
+      name="website",
+      version=website.__version__,
       author="Daniel Gallagher",
       author_email="daniel-gallagher@outlook.com",
-      description="Template",
+      description="Website",
       long_description=readme,
       long_description_content_type="text/markdown",
-      url="https://github.com/danielgallagher8/template.git",
+      url="https://github.com/danielgallagher8/website.git",
       packages=find_packages(),
       install_requires=requirements,
       classifiers=[
