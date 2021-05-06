@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import setup #, find_packages
 
 #import website
 
@@ -16,9 +16,11 @@ setup(
       long_description=readme,
       long_description_content_type="text/markdown",
       url="https://github.com/danielgallagher8/website.git",
-      packages=find_packages(),
+      #packages=find_packages(),
       #package_data={"website/static":["*.html", "*.css"], "website/templates":["*.html", "*.css"]},
       #include_package_data=True,
+      packages=['website'],
+      zip_safe=False,
       install_requires=requirements,
       classifiers=[
               "Programming Language :: Python :: 3.7",
