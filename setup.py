@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-import website
+#import website
 
 with open("README.md", "r") as readme_file:
     readme = readme_file.read()
