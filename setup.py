@@ -9,7 +9,7 @@ requirements = ['flask']
 
 setup(
       name="website",
-      version=website.__version__,
+      version="0.0.3",
       author="Daniel Gallagher",
       author_email="daniel-gallagher@outlook.com",
       description="Website",
